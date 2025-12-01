@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/cjucutan/module_6_part3-backend:cbb05cd02582a98d25508106b8268cd916bf198f
+          image: ghcr.io/cjucutan/module_6_part3-backend:15f7f0c7bfabde919dcf217c57ac8b1757f0b4ae
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
